@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style:none;
+}
+.header {
+    width: 100vw;
+    height: 134px;
+    background-color: #edf2ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header .wrapper {
+    width: 1220px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.geader_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_menu {
+    width: 452px;
+    height: 50px;
+}
+.header_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 50px;
+
+}
+.header_red {
+    font-weight: 700;
+    color: #e06733;
+}
+.header_link{
+    transition: .3s;
+}
+.header_link:hover{
+    color: #e06733;
+    font-weight: 700;
+}
+.leafs_h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+.green_text {
+    color: #499A18;
+}
+.welcome {
+    background-color: #edf2ec;
+    width: 100vw;
+    height: 532px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome .wrapper {
+    width: 1282px;
+    height: 407px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p {
+   font-family: 'Inter', sans-serif;
+   font-weight: 400; 
+   font-size: 20px;
+   line-height: 35px;
+}
+.welcome_text {
+    display: flex;
+    flex-direction: column;
+    width: 549px;
+    height: 340px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.leafs {
+    width: 448.8px;
+    height: 407.36px;
+}
+.learn_more {
+    text-transform: uppercase;
+    width: 156px;
+    height: 44px;
+    border-radius: 10px;
+    border-color: #E06733;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+}
+.learn_more:hover{
+    background-color: #E06733;
+    transition: .3s;
+    color: white;
+    cursor: pointer;
+}
+.about_us{
+    background-color: white;
+    width: 100vw;
+    height: 666px;
+    border: 1px solid red;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.orange_text{
+    color: #E06733;
+}
