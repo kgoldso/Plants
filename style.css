@@ -33,7 +33,7 @@ li {
     align-items: center;
     justify-content: space-between;
 }
-.geader_logo {
+.header_logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,7 +66,14 @@ li {
     font-size: 45px;
 }
 .green_text {
+    font-family: 'Inika', serif;
     color: #499A18;
+    font-size: 40px;
+}
+.green_text_plants {
+    font-family: 'Inter', sans-serif;
+    color: #499A18;
+    font-size: 45px
 }
 .welcome {
     background-color: #edf2ec;
@@ -77,7 +84,7 @@ li {
     justify-content: center;
 }
 .welcome .wrapper {
-    width: 1282px;
+    width: 1222px;
     height: 407px;
     display: flex;
     align-items: center;
@@ -122,11 +129,90 @@ p {
     background-color: white;
     width: 100vw;
     height: 666px;
-    border: 1px solid red;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .orange_text{
+    font-family: 'Inika', serif;
     color: #E06733;
+    font-size: 40px;
+}
+.about_us .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 479px;
+    width: 1222px;
+}
+.prof_exp_text {
+    font-family: 'Inika', serif;
+    color: #499A18;
+    font-size: 40px;
+    width: 463px;
+    height: 102px;
+    line-height: 52px;
+}
+.prof_exp_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 605px;
+    height: 350px;
+    justify-content: space-between;
+}
+.about_us p{
+    width: 605px;
+    height: 208px;
+    line-height: 30px;
+}
+.gardens, .lawn, .planting {
+    width: 156px;
+    height: 44px;
+    border-radius: 10px;
+    border-color: #E06733;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    color: #E06733;
+}
+.gardens:hover, .lawn:hover, .planting:hover {
+    background-color: #E06733;
+    transition: .3s;
+    color: white;
+    cursor: pointer;
+}
+.service {
+    width: 100vw;
+    height: 1300px;
+    background-color: #edf2ec;
+}
+.service .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1007px;
+    height: 94px;
+}
+.service-and-projects {
+    width: 306px;
+    height: 94px;
+    font-family: 'Inika', serif;
+    color: #499A18;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.service_buttones {
+    width: 559px;
+    display: flex;
+    height: 50px;
 }
