@@ -15,6 +15,10 @@ a {
 li {
     list-style:none;
 }
+
+body {
+    overflow-x: hidden;
+}
 .header {
     width: 100vw;
     height: 134px;
@@ -233,9 +237,9 @@ p {
 
 .service button {
     color: #E06733;
-    width: 156px;
-    height: 44px;
-    border-radius: 10px;
+    width: 161px;
+    height: 50px;
+    border-radius: 5px;
     border-color: #E06733;
     font-family: 'Inika', serif;
     font-size: 20px;
@@ -279,3 +283,228 @@ p {
     font-weight: 400;
 }
 
+.service_content {
+    width: 1007px;
+    height: 94px;
+}
+
+.service .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.service_content {
+    margin: 0 0 80px 0;
+}
+
+.price {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price .wrapper {
+    width: 1220px;
+    height: 405px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.prices h2 {
+    width: 135px;
+    height: 49px;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+
+}
+
+.prices {
+    width: 332px;
+    height: 391.01px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.price_item {
+    border: 1px solid #E3E1D5;
+    width: 332px;
+    height: 282.01px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.bsp {
+    width: 250px;
+    height: 50px;
+    border: 1px solid #EDF2EC;
+    border-radius: 20px;
+    background-color: #EDF2EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.prices p {
+    width: 100px;
+    height: 18px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.green_text_gardeners {
+    color: #499A18;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: 'Inter', sans-serif;   
+}
+
+.call_us h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: 'Inter', sans-serif;
+    width: 452px;
+    height: 103px;
+    text-align: right;
+}
+
+.call_us button {
+    color: #E06733;
+    width: 162px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #E06733;
+    font-family: 'Inika', serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    line-height: 26.06px;
+}
+
+.call_us button:hover {
+    background-color: #E06733;
+    transition: .3s;
+    color: white;
+    cursor: pointer;
+}
+
+.call_us {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.call_us img {
+    width: 152px;
+    height: 175px;
+}
+
+.contacts {
+    width: 100vw;
+    height: 550px;
+    background-color: #EDF2EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacts h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.12px;
+    font-family: 'Inika', serif;
+    color: #499A18;
+    width: 195px;
+    height: 51px;
+    
+}
+
+.contacts_us {
+    width: 100vw;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0 0 0;
+}
+
+.contacts .wrapper {
+    width: 1222px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city {
+    width: 450px;
+    height: 50px;
+    border: 1px solid #D6E7D2;
+    background-color: #D6E7D2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    box-shadow: 0px 1px 15px gray;
+}
+
+.city p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    color: #717171;
+    
+}
+
+.foot {
+    height: 130px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.git {
+    width: 200px;
+    height: 50px;
+    margin: 0 0 0 109px;
+}
+
+.icons {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0 0;
+}
+
+.ic1 {
+    padding: 0 20px 0 20px;
+}
+
+.git a {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
